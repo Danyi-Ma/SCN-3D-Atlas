@@ -42,6 +42,7 @@ function init() {
 			}
 		} );
 		object.scale.setScalar(.1);
+		object.translate( (-500,0,0), object._vector.set(1,0,0) );//
 		object.updateMatrix();
 		scene.add(object);
 		render();
