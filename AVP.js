@@ -44,7 +44,7 @@ function init() {
 		object.scale.setScalar(.1);
 		object.translateX(-50);//
 		object.translateY(-50);//
-		object.translateZ(-50);//
+		object.translateZ(-25);//
 		object.updateMatrix();
 		scene.add(object);
 		render();
