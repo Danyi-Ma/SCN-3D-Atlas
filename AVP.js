@@ -42,7 +42,9 @@ function init() {
 			}
 		} );
 		object.scale.setScalar(.1);
-		object.translateX(-500);//
+		object.translateX(500);//
+		object.translateY(500);//
+		object.translateZ(500);//
 		object.updateMatrix();
 		scene.add(object);
 		render();
