@@ -6,7 +6,7 @@ var light;
 
 function init() {
 	camera=new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight, 1, 500);
-	camera.position.set(0, 0, 0);
+	camera.position.set(0, 0, 100);
 	camera.lookAt(new THREE.Vector3(0, 0, 0));
 
 	scene=new THREE.Scene();
