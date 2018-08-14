@@ -35,16 +35,16 @@ function init() {
 	var onError = function ( xhr ) {
 		console.log("error");
 	};
-	loader.load("AVP.obj", function ( object ) {
+	loader.load("AVP-reg.obj", function ( object ) {
 		object.traverse( function ( child ) {
 			if ( child instanceof THREE.Mesh ) {
 				child.material = material;
 			}
 		} );
 		object.scale.setScalar(.1);
-		object.translateX(-50);//
-		object.translateY(-50);//
-		object.translateZ(-25);//
+		//object.translateX(-50);//
+		//object.translateY(-50);//
+		//object.translateZ(-25);//
 		object.updateMatrix();
 		scene.add(object);
 		render();
