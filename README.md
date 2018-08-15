@@ -7,4 +7,4 @@ To image different cell types in SCN, cre line mice (Vip, Avp, Cck, Calb2, Calb1
 [CCK](https://danyi-ma.github.io/SCN-3D-Atlas/CCK.html)
 [VIP](https://danyi-ma.github.io/SCN-3D-Atlas/VIP.html)
 
-[VIP-AVP-CCK](https://danyi-ma.github.io/SCN-3D-Atlas/VIP-AVP-CCK.html)
+[VIP/AVP/CCK](https://danyi-ma.github.io/SCN-3D-Atlas/VIP-AVP-CCK.html)
